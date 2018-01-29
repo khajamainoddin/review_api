@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  short_des: MyText
+  long_des: MyText
+  chapter_index: 1
+  published: 2018-01-29
+  genre: MyString
+
+two:
+  title: MyString
+  short_des: MyText
+  long_des: MyText
+  chapter_index: 1
+  published: 2018-01-29
+  genre: MyString
