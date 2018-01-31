@@ -1,5 +1,7 @@
 class Author
   include Mongoid::Document
+  include Mongoid::Search
+
   field :name, type: String
   field :bio, type: String
   field :pic, type: String
@@ -8,4 +10,6 @@ class Author
 
   embeds_many :books
   #embeds_many :reviews
+
+  search_in :name, :awards
 end

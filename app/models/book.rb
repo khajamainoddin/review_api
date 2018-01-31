@@ -9,4 +9,6 @@ class Book
   
   embedded_in :authors
   embeds_many :reviews
+
+  
 end
